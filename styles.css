@@ -1,0 +1,140 @@
+@font-face {
+    font-family: FonteVista;
+    src: url(font/OTF/Emberly-Regular.otf) format("opentype"),
+        url(font/OTF/Emberly-Light.otf) format("opentype");
+}
+
+body {
+    font-family: FonteVista, Arial, sans-serif;
+}
+
+header {
+    background-color: #0544ac;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px 10px 0px;
+    font-weight: 100;
+}
+
+.logo {
+    background-image: url("images/vista.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 100%;
+}
+
+.logo img {
+    width: fit-content;
+}
+
+.footer-col .links {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+}
+
+.footer-col .links a {
+    margin-bottom: 10px;
+}
+
+.link-header {
+    font-size: 26px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.link-header:hover {
+    text-decoration: line-through;
+}
+
+footer {
+    background-color: #0544ac;
+    height: 200px;
+    border-top: 2px solid gray;
+    padding: 10px 0px 10px 0px;
+    font-weight: 100;
+    color: white;
+}
+
+footer h3 {
+    font-size: 22px;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-row img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col a:hover {
+    text-decoration: line-through;
+}
+
+.footer-col .redes {
+    margin-top: 20px;
+}
+
+.facebook {
+    cursor: pointer;
+    background-color: #0544ac;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-image: url(images/facebook.png);
+    background-size: cover;
+}
+
+.instagram {
+    cursor: pointer;
+    background-color: #0544ac;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-image: url(images/instagram.png);
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.twitter {
+    cursor: pointer;
+    background-color: #0544ac;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-image: url(images/twitter.png);
+    background-size: cover;
+    margin-left: 10px;
+}
