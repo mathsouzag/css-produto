@@ -4,8 +4,144 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>VISTA</title>
         <link rel="stylesheet" href="styles.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/vista.png" />
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <header>
+                <button class="logo"></button>
+
+                <div>
+                    <a class="link-header" href="#Sobre">SOBRE</a>
+                    <a class="link-header" href="#Produto">PRODUTO</a>
+                    <a class="link-header" href="#Formulario">FORMULÁRIO</a>
+                </div>
+            </header>
+            <section>
+                <div class="colecao">
+                    <div class="modelo">
+                        <img src="images/modelo.png" alt="" />
+                    </div>
+                    <div class="nova-colecao">
+                        <h1>Nova coleção de verão</h1>
+                        <p>VISTA a última moda!</p>
+                        <a href="#Produto"><button>Compre agora</button></a>
+                    </div>
+                </div>
+            </section>
+            <section id="Sobre">
+                <div class="sobre">
+                    <h2>VISTA-SE</h2>
+                    <p>
+                        A loja de roupas VISTA oferece uma experiência única de
+                        moda, onde cada peça é cuidadosamente selecionada para
+                        refletir as últimas tendências e lançamentos de cada
+                        estação do ano. Com um compromisso inabalável com a
+                        qualidade e o estilo, a VISTA tornou-se um destino
+                        favorito para os amantes da moda que buscam atualizar
+                        seu guarda-roupa com peças que combinam elegância e
+                        conforto.
+                    </p>
+                    <p>
+                        No universo da moda, a VISTA destaca-se não apenas por
+                        suas coleções exclusivas, mas também por sua atenção à
+                        relação custo-benefício. Priorizando a qualidade em cada
+                        detalhe, desde a escolha dos tecidos até o acabamento
+                        final, a loja oferece uma gama diversificada de opções
+                        que atendem a todos os estilos e bolsos. Na VISTA,
+                        vestir-se bem não é apenas uma questão de estilo, mas
+                        sim um compromisso com a excelência e a satisfação do
+                        cliente.
+                    </p>
+                </div>
+            </section>
+            <section id="Produto">
+                <div class="produto">
+                    <div class="imagem-produto">
+                        <img
+                            src="images/roupa.png"
+                            alt="Conjunto lançamento de verão, top sem mangas laranja com short florído"
+                        />
+                    </div>
+                    <div class="conjunto-verao">
+                        <h2>Novo Conjunto verão</h2>
+                        <p>
+                            Top sem mangas com decote entalhe e conjunto de
+                            shorts com estampa de plantas
+                        </p>
+                        <p class="preco">R$ 90,03</p>
+                        <button>ADQUIRA AGORA</button>
+                    </div>
+                </div>
+            </section>
+            <hr class="linha" />
+            <hr class="linha" />
+            <section id="Formulario">
+                <div class="formulario">
+                    <h2>Contato</h2>
+                    <p>
+                        Se interessou pelo produto e ainda tem dúvidas? Mande
+                        uma mensagem para nós!
+                    </p>
+                    <form>
+                        <div>
+                            <label for="nome">NOME:</label>
+                            <input type="text" id="nome" name="nome" required />
+                        </div>
+                        <div>
+                            <label for="email">E-MAIL:</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <label for="recado">RECADO:</label>
+                            <input
+                                type="text"
+                                id="recadp"
+                                name="recado"
+                                maxlength="100"
+                                required
+                            />
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            <footer>
+                <div class="footer-row">
+                    <div class="footer-img">
+                        <figure>
+                            <img src="images/vista.png" alt="Logo do VISTA" />
+                        </figure>
+                    </div>
+                    <div>
+                        <div class="footer-col">
+                            <h3>LINKS INTERESSANTES</h3>
+                            <div class="links">
+                                <a href="#Sobre">SOBRE</a>
+                                <a href="#Produto">PRODUTO</a>
+                                <a href="#Formulario">FORMULÁRIO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="footer-col">
+                            <h3>REDES SOCIAIS</h3>
+                            <div class="redes">
+                                <button class="facebook"></button>
+                                <button class="instagram"></button>
+                                <button class="twitter"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>

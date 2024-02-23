@@ -1,0 +1,356 @@
+@font-face {
+    font-family: FonteVista;
+    src: url(font/OTF/Emberly-Regular.otf) format("opentype"),
+        url(font/OTF/Emberly-Light.otf) format("opentype");
+}
+
+body {
+    font-family: FonteVista, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    height: fit-content;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #0544ac;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px 10px 0px;
+    font-weight: 100;
+    position: fixed;
+    width: 75%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    background-image: url("images/vista.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 100%;
+}
+
+.logo img {
+    width: fit-content;
+}
+
+.footer-col .links {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+}
+
+.footer-col .links a {
+    margin-bottom: 10px;
+}
+
+.link-header {
+    font-size: 26px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.link-header:hover {
+    text-decoration: line-through;
+}
+
+footer {
+    background-color: #0544ac;
+    height: 200px;
+    border-top: 2px solid gray;
+    padding: 10px 0px 10px 0px;
+    font-weight: 100;
+    color: white;
+}
+
+footer h3 {
+    font-size: 22px;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-row img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col a:hover {
+    text-decoration: line-through;
+}
+
+.footer-col .redes {
+    margin-top: 20px;
+}
+
+.facebook {
+    cursor: pointer;
+    background-color: #0544ac;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-image: url(images/facebook.png);
+    background-size: cover;
+}
+
+.instagram {
+    cursor: pointer;
+    background-color: #0544ac;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-image: url(images/instagram.png);
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.twitter {
+    cursor: pointer;
+    background-color: #0544ac;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-image: url(images/twitter.png);
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.modelo img {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.colecao {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    padding-top: 10%;
+    background-image: url(images/circulo.png);
+    background-size: 38%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.modelo {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nova-colecao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.nova-colecao h1 {
+    font-size: 70px;
+    width: 300px;
+    margin: 0;
+}
+
+.nova-colecao p {
+    font-size: 28px;
+}
+
+.nova-colecao button {
+    background-color: #0544ac;
+    font-family: FonteVista, Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 12px 42px 12px 42px;
+    transition: background-color 0.3s ease;
+}
+
+.nova-colecao button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.sobre {
+    background-color: #0544ac;
+    color: white;
+    padding: 28px 100px 28px 100px;
+}
+
+.sobre h2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 58px;
+    letter-spacing: 40px;
+}
+
+.sobre p {
+    font-size: 30px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imagem-produto img {
+    width: 55%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+.produto .imagem-produto {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.conjunto-verao {
+    margin-left: 50px;
+    width: 20%;
+    background: url(images/circulo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conjunto-verao h2 {
+    font-size: 4rem;
+}
+
+.conjunto-verao p {
+    font-size: 1.7em;
+    color: gray;
+}
+
+.conjunto-verao .preco {
+    font-size: 50px;
+    color: #0544ac;
+}
+
+.conjunto-verao button {
+    background-color: #0544ac;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px 42px 12px 42px;
+    font-family: FonteVista, Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.conjunto-verao button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.linha {
+    color: #0544ac;
+    height: 5px;
+    border-top: 10px solid #0544ac;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario h2 {
+    font-size: 58px;
+    margin-bottom: 0;
+}
+
+.formulario div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.formulario label {
+    font-size: 30px;
+}
+
+.formulario input {
+    border: 2px solid #ddd;
+    padding: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.formulario button {
+    background-color: #0544ac;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px 42px;
+    font-family: FonteVista, Arial, sans-serif;
+    margin-bottom: 60px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.formulario p {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
