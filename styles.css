@@ -6,6 +6,17 @@
 
 body {
     font-family: FonteVista, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    height: fit-content;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -137,4 +148,54 @@ footer h3 {
     background-image: url(images/twitter.png);
     background-size: cover;
     margin-left: 10px;
+}
+
+.modelo img {
+    height: auto;
+    width: 80%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.colecao {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5%;
+    background-image: url(images/circulo.png);
+    background-size: 38%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.modelo {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nova-colecao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.nova-colecao h1 {
+    font-size: 70px;
+    width: 300px;
+    margin: 0;
+}
+
+.nova-colecao p {
+    font-size: 28px;
+}
+
+.nova-colecao button {
+    background-color: #0544ac;
+    color: white;
+    padding: 12px 42px 12px 42px;
 }
