@@ -13,7 +13,7 @@ body {
 
 .container {
     height: fit-content;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -29,6 +29,10 @@ header {
     border-bottom: 2px solid gray;
     padding: 10px 0px 10px 0px;
     font-weight: 100;
+    position: fixed;
+    width: 75%;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -163,7 +167,7 @@ footer h3 {
     flex-direction: row;
     width: 100%;
     height: 70vh;
-    margin-top: 5%;
+    padding-top: 10%;
     background-image: url(images/circulo.png);
     background-size: 38%;
     background-position: center;
@@ -196,6 +200,157 @@ footer h3 {
 
 .nova-colecao button {
     background-color: #0544ac;
+    font-family: FonteVista, Arial, sans-serif;
+    font-size: 20px;
+    border: none;
     color: white;
+    cursor: pointer;
     padding: 12px 42px 12px 42px;
+    transition: background-color 0.3s ease;
+}
+
+.nova-colecao button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.sobre {
+    background-color: #0544ac;
+    color: white;
+    padding: 28px 100px 28px 100px;
+}
+
+.sobre h2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 58px;
+    letter-spacing: 40px;
+}
+
+.sobre p {
+    font-size: 30px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imagem-produto img {
+    width: 55%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+.produto .imagem-produto {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.conjunto-verao {
+    margin-left: 50px;
+    width: 20%;
+    background: url(images/circulo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conjunto-verao h2 {
+    font-size: 4rem;
+}
+
+.conjunto-verao p {
+    font-size: 1.7em;
+    color: gray;
+}
+
+.conjunto-verao .preco {
+    font-size: 50px;
+    color: #0544ac;
+}
+
+.conjunto-verao button {
+    background-color: #0544ac;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px 42px 12px 42px;
+    font-family: FonteVista, Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.conjunto-verao button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.linha {
+    color: #0544ac;
+    height: 5px;
+    border-top: 10px solid #0544ac;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario h2 {
+    font-size: 58px;
+    margin-bottom: 0;
+}
+
+.formulario div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.formulario label {
+    font-size: 30px;
+}
+
+.formulario input {
+    border: 2px solid #ddd;
+    padding: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.formulario button {
+    background-color: #0544ac;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px 42px;
+    font-family: FonteVista, Arial, sans-serif;
+    margin-bottom: 60px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.formulario p {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 3rem;
 }
