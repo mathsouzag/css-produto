@@ -11,6 +11,214 @@ body {
     background-color: #f0f0f0;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: FonteVista, Arial, sans-serif;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .colecao {
+        display: flex;
+        flex-direction: column-reverse !important;
+        padding-top: 40% !important;
+        justify-content: center;
+        align-items: center;
+        background-size: cover !important;
+        background-image: linear-gradient(
+                rgba(255, 255, 255, 0.5),
+                rgba(255, 255, 255, 0.5)
+            ),
+            url(images/modelo.png) !important;
+    }
+
+    .nova-colecao h1 {
+        font-size: 50px !important;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .nova-colecao p {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .nova-colecao button {
+        background-color: #0544ac;
+        font-family: FonteVista, Arial, sans-serif;
+        font-size: 20px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 12px 54px 12px 54px !important;
+        transition: background-color 0.3s ease;
+    }
+
+    .modelo img {
+        height: auto;
+        width: 0% !important;
+        margin: 0 !important;
+        padding-top: 100px !important;
+    }
+
+    header {
+        background-color: #0544ac;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 2px solid gray;
+        padding: 10px 0px 10px 0px !important;
+        font-weight: 100;
+        position: fixed;
+        width: 100% !important;
+        top: 0;
+    }
+
+    .sobre {
+        padding: 50px 40px 50px 40px !important;
+    }
+
+    .sobre h2 {
+        font-size: 30px !important;
+        letter-spacing: 10px !important;
+        text-align: center;
+    }
+
+    .sobre p {
+        font-size: 24px !important;
+    }
+
+    .produto {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+        height: 100vh !important;
+        margin-top: 10% !important;
+        margin-bottom: 25% !important;
+    }
+
+    .imagem-produto img {
+        width: 100% !important;
+        height: auto;
+        border-radius: 20px;
+        margin-right: 0px !important;
+    }
+    .produto .imagem-produto {
+        width: 80% !important;
+    }
+
+    .conjunto-verao {
+        margin-left: 0px !important;
+        width: 80% !important;
+        background: url(images/circulo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .conjunto-verao h2 {
+        font-size: 2.5em;
+        padding-top: 20px !important;
+    }
+
+    .conjunto-verao button {
+        background-color: #0544ac;
+        color: white;
+        border: none;
+        font-size: 20px;
+        padding: 12px 42px 12px 42px;
+        font-family: FonteVista, Arial, sans-serif;
+        transition: background-color 0.3s ease;
+    }
+
+    .linha {
+        padding-top: 20px !important;
+        color: #0544ac;
+        height: 5px;
+        border-top: 10px solid #0544ac;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .formulario h2 {
+        font-size: 4em !important;
+        margin-bottom: 0;
+    }
+
+    .formulario div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .formulario label {
+        font-size: 30px;
+    }
+
+    .formulario input {
+        border: 2px solid #ddd;
+        padding: 10px;
+        width: 90% !important;
+        font-size: 20px;
+    }
+
+    .formulario button {
+        margin-top: 20px;
+    }
+
+    .footer-row {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    footer {
+        height: max-content !important;
+        padding: 0px 0px 0px 0px !important;
+    }
+
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px 30px 30px !important;
+    }
+
+    .footer-row img {
+        width: 70% !important;
+        height: auto;
+        padding: 0px !important;
+    }
+
+    .footer-img {
+        display: flex !important;
+        justify-content: center !important;
+        padding-block: 20px;
+    }
+
+    .logo {
+        background-image: url("images/vista.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+        cursor: pointer;
+        width: 400px !important;
+        height: 80px !important;
+        margin: 10px !important;
+    }
+
+    .logo img {
+        width: 400px !important;
+    }
+}
+
 .container {
     height: fit-content;
     width: 75%;
